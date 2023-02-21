@@ -5,4 +5,8 @@ public class SaferException extends Exception{
 
 
 
+
+    public SaferException() {
+        System.out.println("Помилка SaferException");
+    }
 }

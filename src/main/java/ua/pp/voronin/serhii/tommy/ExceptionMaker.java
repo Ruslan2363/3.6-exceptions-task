@@ -9,8 +9,7 @@ public class ExceptionMaker {
     }
 
     public boolean isThereTwo(Object[] objectsArray) throws SaferException {
-        try {
-            for (Object someObject : objectsArray) {
+        try {for (Object someObject : objectsArray) {
 
             // Додати код, що перехоплює вийняток NullPointerException та повертає SaferException
             if (someObject.equals(2)) {
