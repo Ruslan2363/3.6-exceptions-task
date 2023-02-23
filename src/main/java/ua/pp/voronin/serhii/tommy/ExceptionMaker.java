@@ -17,7 +17,7 @@ public class ExceptionMaker {
             }
         }
         } catch (Exception e) {
-            throw new SaferException();
+            throw new SaferException( "Error");
         }
         return false ;
 
